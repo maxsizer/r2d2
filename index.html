@@ -175,32 +175,41 @@ ctx.stroke();
 
 //body outline with black
 
-ctx.beginPath();
-ctx.moveTo(40, 90);
-ctx.lineTo(40, 220);
-ctx.lineTo(50, 220);
-ctx.lineTo(50, 90);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
+//ctx.beginPath();
+//ctx.moveTo(40, 90);
+//ctx.lineTo(40, 220);
+//ctx.lineTo(50, 220);
+//ctx.lineTo(50, 90);
+//ctx.fillStyle = "black";
+//ctx.fill();
+//ctx.stroke();
 
-ctx.beginPath();
-ctx.moveTo(170, 90);
-ctx.lineTo(170, 220);
-ctx.lineTo(180, 220);
-ctx.lineTo(180, 90);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
+BlackS(40, 90, 10, 220)
 
-ctx.beginPath();
-ctx.moveTo(50, 220);
-ctx.lineTo(50, 210);
-ctx.lineTo(170, 210);
-ctx.lineTo(170, 220);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
+
+//ctx.beginPath();
+//ctx.moveTo(170, 90);
+//ctx.lineTo(170, 220);
+//ctx.lineTo(180, 220);
+//ctx.lineTo(180, 90);
+//ctx.fillStyle = "black";
+//ctx.fill();
+//ctx.stroke();
+
+
+BlackS(170, 90, 10, 220)
+
+
+//ctx.beginPath();
+//ctx.moveTo(50, 220);
+//ctx.lineTo(50, 210);
+//ctx.lineTo(170, 210);
+//ctx.lineTo(170, 220);
+//ctx.fillStyle = "black";
+//ctx.fill();
+//ctx.stroke();
+
+BlackS(50, 210, 120, 10)
 
 
 //left leg outline black
@@ -410,7 +419,30 @@ GreyS(90, 230, 10, 10);
 
 //Left Panel
 
+GreyS(50, 100, 10, 80);
+GreyS(70, 100, 10, 110);
+GreyS(60, 100, 10, 10);
+GreyS(60, 170, 10, 10);
 
+//Right Panel
+
+GreyS(140, 100, 10, 110);
+GreyS(160, 100, 10, 80);
+GreyS(150, 100, 10, 10);
+GreyS(150, 170, 10, 10);
+
+//Middle Panel
+
+BlueS(90, 100, 40, 10);
+BlueS(90, 120, 40, 10);
+BlueS(90, 140, 10, 20);
+BlueS(120, 140, 10, 20);
+GreyS(100, 140, 20, 20);
+BlueS(90, 170, 40, 40);
+GreyS(100, 180, 10, 10);
+GreyS(110, 190, 10, 10);
+BlackS(100, 190, 10, 10);
+BlackS(110, 180, 10, 10);
 
 //Colour Key (Will be removed later)
 //Blue squares
