@@ -7,7 +7,11 @@
   <title>Document</title>
 </head>
 <body>
+<<<<<<< HEAD
   <canvas id="canvas" width="220" height="250" style="border: 1px solid black;">
+=======
+  <canvas id="canvas" width="220" height="250" style="border: 1px solid red;">
+>>>>>>> 760da9fab64e4ae8ec27c286fa8b95f7b22550d3
 
   </canvas>
 
@@ -21,6 +25,29 @@ let canH = canvas.height/2;
 console.log(canW);
 console.log(canH);
 
+<<<<<<< HEAD
+=======
+//Functions
+
+//Blue Squares
+function BlueS(a,b,c,d){
+  ctx.fillStyle = "blue";
+  ctx.fillRect(a, b, c, d);
+};
+
+//Black Squares
+function BlackS(a,b,c,d){
+  ctx.fillStyle = "black";
+  ctx.fillRect(a, b, c, d);
+};
+
+//Grey Squares
+function GreyS(a,b,c,d){
+  ctx.fillStyle = "grey";
+  ctx.fillRect(a, b, c, d);
+};
+
+>>>>>>> 760da9fab64e4ae8ec27c286fa8b95f7b22550d3
 //head outline
 ctx.beginPath();
 ctx.moveTo(90, 0);
@@ -324,6 +351,101 @@ ctx.fillStyle = "black";
 ctx.fill();
 ctx.stroke();
 
+<<<<<<< HEAD
+=======
+//Charlotte's Body detail
+
+//Head Details
+
+//Eye Blue Outline
+BlueS(100, 10, 10, 10);
+BlueS(110, 10, 10, 10);
+BlueS(90, 20, 10, 10);
+BlueS(120, 20, 10, 10);
+BlueS(120, 30, 10, 10);
+BlueS(120, 40, 10, 10);
+BlueS(110, 40, 10, 10);
+BlueS(100, 40, 10, 10);
+BlueS(90, 40, 10, 10);
+BlueS(90, 30, 10, 10);
+
+//Eye itself
+
+BlackS(100, 30, 10, 10);
+BlackS(110, 30, 10, 10);
+BlackS(110, 20, 10, 10);
+
+ctx.fillStyle = "white";
+ctx.fillRect(100, 20, 10, 10)
+
+//Rest of detail on Head
+
+BlueS(70, 20, 10, 10);
+BlueS(60, 30, 10, 10);
+BlueS(140, 20, 10, 10);
+BlueS(150, 30, 10, 10);
+BlueS(70, 50, 10, 10);
+BlueS(60, 50, 10, 10);
+BlueS(70, 70, 10, 10);
+BlueS(60, 70, 10, 10);
+BlueS(90, 70, 10, 10);
+BlueS(90, 60, 10, 10);
+BlueS(110, 70, 10, 10);
+BlueS(110, 60, 10, 10);
+BlueS(120, 60, 10, 10);
+BlueS(130, 60, 10, 10);
+BlueS(130, 70, 10, 10);
+BlueS(150, 70, 10, 10);
+BlueS(150, 60, 10, 10);
+
+ctx.fillStyle = "red";
+ctx.fillRect(120, 70, 10, 10)
+
+//Legs
+
+//L
+GreyS(30, 200, 10, 10);
+GreyS(30, 210, 10, 10);
+//R
+GreyS(180, 200, 10, 10);
+GreyS(180, 210, 10, 10);
+//M
+GreyS(110, 220, 10, 10);
+GreyS(100, 220, 10, 10);
+GreyS(120, 230, 10, 10);
+GreyS(90, 230, 10, 10);
+
+//Body Details
+
+//Left Panel
+
+
+
+//Colour Key (Will be removed later)
+//Blue squares
+//ctx.fillStyle = "blue";
+//ctx.fillRect(10, 10, 10, 10);
+
+//Grey Squares
+//ctx.fillStyle = "grey";
+//ctx.fillRect(10, 20, 10, 10)
+
+//Black squares
+
+//ctx.fillStyle = "black";
+//ctx.fillRect(10, 30, 10, 10)
+
+//Red square
+
+//ctx.fillStyle = "red";
+//ctx.fillRect(10, 40, 10, 10)
+
+//White square
+
+//ctx.fillStyle = "white";
+//ctx.fillRect(10, 50, 10, 10)
+
+>>>>>>> 760da9fab64e4ae8ec27c286fa8b95f7b22550d3
   </script>
 
 </body>
