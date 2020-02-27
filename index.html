@@ -41,6 +41,8 @@ function GreyS(a,b,c,d){
   ctx.fillRect(a, b, c, d);
 };
 
+//Max outline
+
 //head outline
 ctx.beginPath();
 ctx.moveTo(90, 0);
@@ -175,122 +177,39 @@ ctx.stroke();
 
 
 //body outline
-
 BlackS(40, 90, 10, 220)
 BlackS(50, 210, 120, 10)
 BlackS(170, 90, 10, 220)
 
+// upper left leg
+BlackS(20, 90, 20, 10)
+BlackS(10, 100, 10, 20)
+BlackS(10, 120, 30, 10)
 
+//middle left leg
+BlackS(20, 120, 10, 70)
+BlackS(20, 190, 20, 10)
 
-//left leg outline black
-ctx.beginPath();
-ctx.moveTo(40, 90);
-ctx.lineTo(20, 90);
-ctx.lineTo(20, 100);
-ctx.lineTo(40, 100);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
+//left foot
+BlackS(10, 200, 10, 20)
+BlackS(0, 220, 10, 30)
+BlackS(10, 240, 30, 10)
 
-ctx.beginPath();
-ctx.moveTo(20, 100);
-ctx.lineTo(10, 100);
-ctx.lineTo(10, 130);
-ctx.lineTo(40, 130);
-ctx.lineTo(40, 120);
-ctx.lineTo(20, 120);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
+//upper right leg
+BlackS(180, 90, 20, 10)
+BlackS(200, 100, 10, 20)
+BlackS(180, 120, 30, 10)
 
-ctx.beginPath();
-ctx.moveTo(20, 130);
-ctx.lineTo(20, 200);
-ctx.lineTo(40, 200);
-ctx.lineTo(40, 190);
-ctx.lineTo(30, 190);
-ctx.lineTo(30, 130);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
+//middle right leg
+BlackS(190, 120, 10, 70)
+BlackS(180, 190, 20, 10)
 
-ctx.beginPath();
-ctx.moveTo(20, 200);
-ctx.lineTo(20, 220);
-ctx.lineTo(10, 220);
-ctx.lineTo(10, 200);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
+//right foot
+BlackS(200, 200, 10, 20)
+BlackS(210, 220, 10, 30)
+BlackS(180, 240, 30, 10)
 
-ctx.beginPath();
-ctx.moveTo(10, 220);
-ctx.lineTo(0, 220);
-ctx.lineTo(0, 250);
-ctx.lineTo(50, 250);
-ctx.lineTo(50, 220);
-ctx.lineTo(40, 220);
-ctx.lineTo(40, 240);
-ctx.lineTo(10, 240);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
-
-//right leg outline black
-ctx.beginPath();
-ctx.moveTo(180, 90);
-ctx.lineTo(200, 90);
-ctx.lineTo(200, 100);
-ctx.lineTo(180, 100);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
-
-ctx.beginPath();
-ctx.moveTo(200, 100);
-ctx.lineTo(200, 120);
-ctx.lineTo(180, 120);
-ctx.lineTo(180, 130);
-ctx.lineTo(210, 130);
-ctx.lineTo(210, 100);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
-
-ctx.beginPath();
-ctx.moveTo(200, 130);
-ctx.lineTo(200, 200);
-ctx.lineTo(180, 200);
-ctx.lineTo(180, 190);
-ctx.lineTo(190, 190);
-ctx.lineTo(190, 130);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
-
-ctx.beginPath();
-ctx.moveTo(200, 200);
-ctx.lineTo(200, 220);
-ctx.lineTo(210, 220);
-ctx.lineTo(210, 200);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
-
-ctx.beginPath();
-ctx.moveTo(210, 220);
-ctx.lineTo(220, 220);
-ctx.lineTo(220, 250);
-ctx.lineTo(170, 250);
-ctx.lineTo(170, 220);
-ctx.lineTo(180, 220);
-ctx.lineTo(180, 240);
-ctx.lineTo(210, 240);
-ctx.fillStyle = "black";
-ctx.fill();
-ctx.stroke();
-
-//middle leg outline black
+//middle foot outline black
 ctx.beginPath();
 ctx.moveTo(70, 230);
 ctx.lineTo(70, 250);
