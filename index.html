@@ -21,6 +21,26 @@ let canH = canvas.height/2;
 console.log(canW);
 console.log(canH);
 
+//Functions
+
+//Blue Squares
+function BlueS(a,b,c,d){
+  ctx.fillStyle = "blue";
+  ctx.fillRect(a, b, 10, 10);
+};
+
+//Black Squares
+function BlackS(a,b,c,d){
+  ctx.fillStyle = "black";
+  ctx.fillRect(a, b, 10, 10);
+};
+
+//Grey Squares
+function GreyS(a,b,c,d){
+  ctx.fillStyle = "grey";
+  ctx.fillRect(a, b, 10, 10);
+};
+
 //head outline
 ctx.beginPath();
 ctx.moveTo(90, 0);
@@ -326,26 +346,6 @@ ctx.stroke();
 
 //Charlotte's Body detail
 
-//Functions
-
-//Blue Squares
-function BlueS(a,b,c,d){
-  ctx.fillStyle = "blue";
-  ctx.fillRect(a, b, 10, 10);
-};
-
-//Black Squares
-function BlackS(a,b,c,d){
-  ctx.fillStyle = "black";
-  ctx.fillRect(a, b, 10, 10);
-};
-
-//Grey Squares
-function GreyS(a,b,c,d){
-  ctx.fillStyle = "grey";
-  ctx.fillRect(a, b, 10, 10);
-};
-
 //Head Details
 
 //Eye Blue Outline
@@ -405,6 +405,10 @@ GreyS(110, 220);
 GreyS(100, 220);
 GreyS(120, 230);
 GreyS(90, 230);
+
+//Body Details
+
+GreyS(150, 150);
 
 //Colour Key (Will be removed later)
 //Blue squares
