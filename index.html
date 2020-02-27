@@ -326,13 +326,72 @@ ctx.stroke();
 
 //Charlotte's Body detail
 
-//Test Function
+//Functions
+
+//Blue Squares
 function BlueS(a,b,c,d){
   ctx.fillStyle = "blue";
   ctx.fillRect(a, b, 10, 10);
 };
 
-BlueS(30, 30);
+//Black Squares
+function BlackS(a,b,c,d){
+  ctx.fillStyle = "black";
+  ctx.fillRect(a, b, 10, 10);
+};
+
+//Grey Squares
+function GreyS(a,b,c,d){
+  ctx.fillStyle = "grey";
+  ctx.fillRect(a, b, 10, 10);
+};
+
+//Head Details
+
+//Eye Blue Outline
+BlueS(100, 10);
+BlueS(110, 10);
+BlueS(90, 20);
+BlueS(120, 20);
+BlueS(120, 30);
+BlueS(120, 40);
+BlueS(110, 40);
+BlueS(100, 40);
+BlueS(90, 40);
+BlueS(90, 30);
+
+//Eye itself
+
+BlackS(100, 30);
+BlackS(110, 30);
+BlackS(110, 20);
+
+ctx.fillStyle = "white";
+ctx.fillRect(100, 20, 10, 10)
+
+//Rest of detail on Head
+
+BlueS(70, 20);
+BlueS(60, 30);
+BlueS(140, 20);
+BlueS(150, 30);
+BlueS(70, 50);
+BlueS(60, 50);
+BlueS(70, 70);
+BlueS(60, 70);
+BlueS(90, 70);
+BlueS(90, 60);
+BlueS(110, 70);
+BlueS(110, 60);
+BlueS(120, 60);
+BlueS(130, 60);
+BlueS(130, 70);
+BlueS(150, 70);
+BlueS(150, 60);
+
+ctx.fillStyle = "red";
+ctx.fillRect(120, 70, 10, 10)
+
 
 //Blue squares
 ctx.fillStyle = "blue";
@@ -351,6 +410,11 @@ ctx.fillRect(10, 30, 10, 10)
 
 ctx.fillStyle = "red";
 ctx.fillRect(10, 40, 10, 10)
+
+//White square
+
+ctx.fillStyle = "white";
+ctx.fillRect(10, 50, 10, 10)
 
   </script>
 
