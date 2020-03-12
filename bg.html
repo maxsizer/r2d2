@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <body>
 
-<canvas id="starwarsr2d2" width="750" height="500"></canvas>
+  <canvas id="starwarsr2d2" width="750" height="500"></canvas>
 
-<style>
+  <style>
     canvas {
-    background: #111;
-}
-    </style>
+      background: #111;
+    }
+  </style>
 
-<script>
-var canvas = document.getElementById("starwarsr2d2"),
-context = canvas.getContext("2d"),
-stars = 200;//number of stars//
-</script>
-<script>
-for (var i = 0; i < stars; i++) {
-    x = Math.random() * canvas.offsetWidth;
-    y = Math.random() * canvas.offsetHeight;
-   context.fillStyle = "white";
-    context.fillRect(x,y,1,1);
-}
-      </script>
+  <script>
+    var canvas = document.getElementById("starwarsr2d2"),
+      context = canvas.getContext("2d"),
+      stars = 200; //number of stars//
+  </script>
+  <script>
+    for (var i = 0; i < stars; i++) {
+      x = Math.random() * canvas.offsetWidth;
+      y = Math.random() * canvas.offsetHeight;
+      context.fillStyle = "white";
+      context.fillRect(x, y, 1, 1);
+    }
+  </script>
 </body>
+
 </html>
