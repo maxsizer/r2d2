@@ -62,6 +62,21 @@ function r2d2(){
     ctx.fillRect(a, b, c, d);
   };
 
+//White Body
+function WhiteB(a,b,c,d){
+  ctx.fillStyle = "white";
+  ctx.fillRect(a, b, c, d);
+}
+
+//New white body by Charlotte
+
+WhiteB(20, 90, 180, 30);
+WhiteB(20, 120, 180, 100);
+WhiteB(10, 220, 30, 20);
+WhiteB(180, 220, 30, 20);
+WhiteB(80, 220, 60, 20);
+
+
   //Max outline
 
   //head outline
@@ -252,8 +267,6 @@ function r2d2(){
   BlackS(110, 30, 10, 10);
   BlackS(110, 20, 10, 10);
 
-  ctx.fillStyle = "white";
-  ctx.fillRect(100, 20, 10, 10)
 
   //Rest of detail on Head
 
@@ -277,6 +290,9 @@ function r2d2(){
 
   ctx.fillStyle = "red";
   ctx.fillRect(120, 70, 10, 10)
+
+  ctx.fillStyle = "white";
+  ctx.fillRect(100, 20, 10, 10)
 
   //Legs
 
